@@ -1,9 +1,24 @@
+ul,
+.header,
+.main,
+.expirience,
+.reasons_for_training,
+.reason,
+.footer {
+  display: flex;
+}
+
 li {
   list-style-type: none;
 }
 
 a {
   text-decoration: none;
+}
+
+.header,
+.main {
+  background: #EDEBFC;
 }
 
 /*# sourceMappingURL=style.css.map */
