@@ -1,11 +1,10 @@
 ul,
-.header,
-.main,
+.container,
 .expirience,
 .reasons_for_training,
-.reason,
-.footer {
+.reason {
     display: flex;
+    justify-content: space-between;
 }
 
 li {
@@ -17,6 +16,155 @@ a {
 }
 
 .header,
-.main {
+.main,
+.footer {
     background: #EDEBFC;
+}
+
+.kinolog {
+    background: #7871DE;
+}
+
+.main {
+    .container {
+        border-radius: 100px;
+        padding-bottom: 3%;
+    }
+}
+
+.color {
+    display: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 1%;
+    font-style: normal;
+    font-weight: 400;
+    color: #09035D;
+
+    .main__text {
+        background: #FFFFFF;
+        border-radius: 100px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2.5%;
+        padding-left: 7%;
+
+        h1 {
+            font-size: 3.5em;
+            line-height: 1em;
+            width: 70%;
+            margin-bottom: 0;
+
+            span {
+                color: #7871DE;
+            }
+        }
+
+        p {
+            color: #7871DE;
+            width: 70%;
+            font-size: 1.5em;
+        }
+
+        a {
+            background: #09035D;
+            box-shadow: 4px 4px 20px rgba(9, 3, 93, 0.1);
+            border-radius: 4px;
+            color: #FFFFFF;
+            width: 40%;
+            text-align: center;
+            padding: 2%;
+            font-size: 1.4em;
+        }
+    }
+
+    .nav {
+        width: 75%;
+    }
+
+    .networks {
+        width: 10%;
+
+        ul {
+            li {
+                a {
+                    display: block;
+                    width: 20px;
+                    height: 20px;
+
+                    .inst {
+                        background: url(assets/images/inst_violet.svg);
+
+                        &:hover {
+                            background: url(assets/images/inst_color.svg);
+                        }
+                    }
+
+                    .fb {
+                        background-image: url(assets/images/fb_violet.svg);
+
+                        &:hover {
+                            background-image: url(assets/images/fb_color.svg);
+                        }
+                    }
+
+                    .vk {
+                        background-image: url(assets/images/vk_violet.svg);
+
+                        &:hover {
+                            background-image: url(assets/images/vk_color.svg);
+                        }
+                    }
+
+                    .tg {
+                        background-image: url(assets/images/tg_violet.svg);
+
+                        &:hover {
+                            background-image: url(assets/images/tg_color.svg);
+                        }
+                    }
+
+                }
+            }
+
+        }
+    }
+
+}
+
+
+
+/* здесь ваши стили для десктопа (компьютер) */
+@media (max-width: 1500px) {
+    .container {
+        max-width: 800px;
+    }
+
+    /* здесь ваши стили для ноутбука */
+}
+
+@media (max-width: 900px) {
+    .container {
+        max-width: 600px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* здесь ваши стили для планшета */
+}
+
+@media (max-width: 640px) {
+    .container {
+        max-width: 480px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    /* здесь ваши стили для смартфона */
 }
