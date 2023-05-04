@@ -31,10 +31,6 @@ a {
   padding-bottom: 3%;
 }
 
-.color {
-  display: none;
-}
-
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -84,33 +80,33 @@ a {
 .container .networks {
   width: 10%;
 }
-.container .networks ul li a {
+.container .networks ul li {
   display: block;
   width: 20px;
   height: 20px;
 }
-.container .networks ul li a .inst {
+.container .networks ul li .inst {
   background: url(assets/images/inst_violet.svg);
 }
-.container .networks ul li a .inst:hover {
+.container .networks ul li .inst:hover {
   background: url(assets/images/inst_color.svg);
 }
-.container .networks ul li a .fb {
+.container .networks ul li .fb {
   background-image: url(assets/images/fb_violet.svg);
 }
-.container .networks ul li a .fb:hover {
+.container .networks ul li .fb:hover {
   background-image: url(assets/images/fb_color.svg);
 }
-.container .networks ul li a .vk {
+.container .networks ul li .vk {
   background-image: url(assets/images/vk_violet.svg);
 }
-.container .networks ul li a .vk:hover {
+.container .networks ul li .vk:hover {
   background-image: url(assets/images/vk_color.svg);
 }
-.container .networks ul li a .tg {
+.container .networks ul li .tg {
   background-image: url(assets/images/tg_violet.svg);
 }
-.container .networks ul li a .tg:hover {
+.container .networks ul li .tg:hover {
   background-image: url(assets/images/tg_color.svg);
 }
 

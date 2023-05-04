@@ -32,10 +32,6 @@ a {
     }
 }
 
-.color {
-    display: none;
-}
-
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -93,44 +89,43 @@ a {
 
         ul {
             li {
-                a {
-                    display: block;
-                    width: 20px;
-                    height: 20px;
+                display: block;
+                width: 20px;
+                height: 20px;
 
-                    .inst {
-                        background: url(assets/images/inst_violet.svg);
+                .inst {
+                    background: url(assets/images/inst_violet.svg);
 
-                        &:hover {
-                            background: url(assets/images/inst_color.svg);
-                        }
+                    &:hover {
+                        background: url(assets/images/inst_color.svg);
                     }
-
-                    .fb {
-                        background-image: url(assets/images/fb_violet.svg);
-
-                        &:hover {
-                            background-image: url(assets/images/fb_color.svg);
-                        }
-                    }
-
-                    .vk {
-                        background-image: url(assets/images/vk_violet.svg);
-
-                        &:hover {
-                            background-image: url(assets/images/vk_color.svg);
-                        }
-                    }
-
-                    .tg {
-                        background-image: url(assets/images/tg_violet.svg);
-
-                        &:hover {
-                            background-image: url(assets/images/tg_color.svg);
-                        }
-                    }
-
                 }
+
+                .fb {
+                    background-image: url(assets/images/fb_violet.svg);
+
+                    &:hover {
+                        background-image: url(assets/images/fb_color.svg);
+                    }
+                }
+
+                .vk {
+                    background-image: url(assets/images/vk_violet.svg);
+
+                    &:hover {
+                        background-image: url(assets/images/vk_color.svg);
+                    }
+                }
+
+                .tg {
+                    background-image: url(assets/images/tg_violet.svg);
+
+                    &:hover {
+                        background-image: url(assets/images/tg_color.svg);
+                    }
+                }
+
+
             }
 
         }
