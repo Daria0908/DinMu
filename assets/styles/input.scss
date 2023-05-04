@@ -1,5 +1,6 @@
 ul,
 .container,
+.expirienc_reasons,
 .expirience,
 .reasons_for_training,
 .reason {
@@ -94,34 +95,34 @@ a {
                 height: 20px;
 
                 .inst {
-                    background: url(assets/images/inst_violet.svg);
+                    background-image: url(../images/inst_color.svg);
 
                     &:hover {
-                        background: url(assets/images/inst_color.svg);
+                        background: url(../images/inst_color.svg);
                     }
                 }
 
                 .fb {
-                    background-image: url(assets/images/fb_violet.svg);
+                    background-image: url(../images/fb_violet.svg);
 
                     &:hover {
-                        background-image: url(assets/images/fb_color.svg);
+                        background-image: url(../images/fb_color.svg);
                     }
                 }
 
                 .vk {
-                    background-image: url(assets/images/vk_violet.svg);
+                    background-image: url(../images/vk_violet.svg);
 
                     &:hover {
-                        background-image: url(assets/images/vk_color.svg);
+                        background-image: url(../images/vk_color.svg);
                     }
                 }
 
                 .tg {
-                    background-image: url(assets/images/tg_violet.svg);
+                    background-image: url(../images/tg_violet.svg);
 
                     &:hover {
-                        background-image: url(assets/images/tg_color.svg);
+                        background-image: url(../images/tg_color.svg);
                     }
                 }
 
@@ -131,7 +132,28 @@ a {
         }
     }
 
+    .expirienc_reasons {
+        flex-direction: column;
+
+        .expirience {
+            justify-content: center;
+
+            div {
+                width: 10%;
+                text-align: center;
+                padding: 0.5em;
+
+                p {
+                    color: #0F0F10;
+                }
+            }
+        }
+
+
+    }
 }
+
+
 
 
 

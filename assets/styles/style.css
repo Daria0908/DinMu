@@ -1,6 +1,7 @@
 @charset "UTF-8";
 ul,
 .container,
+.expirienc_reasons,
 .expirience,
 .reasons_for_training,
 .reason {
@@ -86,28 +87,42 @@ a {
   height: 20px;
 }
 .container .networks ul li .inst {
-  background: url(assets/images/inst_violet.svg);
+  background-image: url(../images/inst_color.svg);
 }
 .container .networks ul li .inst:hover {
-  background: url(assets/images/inst_color.svg);
+  background: url(../images/inst_color.svg);
 }
 .container .networks ul li .fb {
-  background-image: url(assets/images/fb_violet.svg);
+  background-image: url(../images/fb_violet.svg);
 }
 .container .networks ul li .fb:hover {
-  background-image: url(assets/images/fb_color.svg);
+  background-image: url(../images/fb_color.svg);
 }
 .container .networks ul li .vk {
-  background-image: url(assets/images/vk_violet.svg);
+  background-image: url(../images/vk_violet.svg);
 }
 .container .networks ul li .vk:hover {
-  background-image: url(assets/images/vk_color.svg);
+  background-image: url(../images/vk_color.svg);
 }
 .container .networks ul li .tg {
-  background-image: url(assets/images/tg_violet.svg);
+  background-image: url(../images/tg_violet.svg);
 }
 .container .networks ul li .tg:hover {
-  background-image: url(assets/images/tg_color.svg);
+  background-image: url(../images/tg_color.svg);
+}
+.container .expirienc_reasons {
+  flex-direction: column;
+}
+.container .expirienc_reasons .expirience {
+  justify-content: center;
+}
+.container .expirienc_reasons .expirience div {
+  width: 10%;
+  text-align: center;
+  padding: 0.5em;
+}
+.container .expirienc_reasons .expirience div p {
+  color: #0F0F10;
 }
 
 /* здесь ваши стили для десктопа (компьютер) */
