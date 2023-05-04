@@ -1,9 +1,8 @@
 @charset "UTF-8";
 ul,
 .container,
-.expirienc_reasons,
+.ex-re,
 .expirience,
-.reasons_for_training,
 .reason {
   display: flex;
   justify-content: space-between;
@@ -110,19 +109,29 @@ a {
 .container .networks ul li .tg:hover {
   background-image: url(../images/tg_color.svg);
 }
-.container .expirienc_reasons {
+.container .ex-re {
+  width: 100%;
   flex-direction: column;
 }
-.container .expirienc_reasons .expirience {
+.container .ex-re .expirience {
   justify-content: center;
 }
-.container .expirienc_reasons .expirience div {
+.container .ex-re .expirience div {
   width: 10%;
   text-align: center;
   padding: 0.5em;
 }
-.container .expirienc_reasons .expirience div p {
+.container .ex-re .expirience div p {
   color: #0F0F10;
+}
+.container .ex-re .reasons_for_training {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.container .ex-re .reasons_for_training .reason {
+  background: #FFFFFF;
+  box-shadow: -4px -4px 20px rgba(120, 113, 222, 0.1), 4px 4px 20px rgba(120, 113, 222, 0.1);
+  border-radius: 4px;
 }
 
 /* здесь ваши стили для десктопа (компьютер) */

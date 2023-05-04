@@ -1,8 +1,7 @@
 ul,
 .container,
-.expirienc_reasons,
+.ex-re,
 .expirience,
-.reasons_for_training,
 .reason {
     display: flex;
     justify-content: space-between;
@@ -132,7 +131,8 @@ a {
         }
     }
 
-    .expirienc_reasons {
+    .ex-re {
+        width: 100%;
         flex-direction: column;
 
         .expirience {
@@ -149,8 +149,22 @@ a {
             }
         }
 
+        .reasons_for_training {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+
+            .reason {
+                background: #FFFFFF;
+                box-shadow: -4px -4px 20px rgba(120, 113, 222, 0.1), 4px 4px 20px rgba(120, 113, 222, 0.1);
+                border-radius: 4px;
+            }
+        }
 
     }
+
+
+
+
 }
 
 
