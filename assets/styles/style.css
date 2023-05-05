@@ -90,36 +90,37 @@ h2 {
   width: 75%;
 }
 .container .networks {
-  width: 12%;
+  width: 8em;
 }
 .container .networks ul li {
   display: block;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
+  background-size: 100%;
 }
 .container .networks ul .inst {
-  background: url(../images/inst_violet.svg);
+  background-image: url(../images/inst_violet.svg);
 }
 .container .networks ul .inst:hover {
-  background: url(../images/inst_color.svg);
+  background-image: url(../images/inst_color.svg);
 }
 .container .networks ul .fb {
-  background: url(../images/fb_violet.svg);
+  background-image: url(../images/fb_violet.svg);
 }
 .container .networks ul .fb:hover {
-  background: url(../images/fb_color.svg);
+  background-image: url(../images/fb_color.svg);
 }
 .container .networks ul .vk {
-  background: url(../images/vk_violet.svg);
+  background-image: url(../images/vk_violet.svg);
 }
 .container .networks ul .vk:hover {
-  background: url(../images/vk_color.svg);
+  background-image: url(../images/vk_color.svg);
 }
 .container .networks ul .tg {
-  background: url(../images/tg_violet.svg);
+  background-image: url(../images/tg_violet.svg);
 }
 .container .networks ul .tg:hover {
-  background: url(../images/tg_color.svg);
+  background-image: url(../images/tg_color.svg);
 }
 .container .ex-re {
   width: 100%;

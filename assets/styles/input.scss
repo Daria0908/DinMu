@@ -101,47 +101,50 @@ h2 {
     }
 
     .networks {
-        width: 12%;
+        width: 8em;
 
         ul {
             li {
                 display: block;
-
-                width: 30px;
-                height: 30px;
+                width: 20px;
+                height: 20px;
+                background-size: 100%;
             }
 
             .inst {
-                background: url(../images/inst_violet.svg);
+                background-image: url(../images/inst_violet.svg);
 
                 &:hover {
-                    background: url(../images/inst_color.svg);
+                    background-image: url(../images/inst_color.svg);
                 }
             }
 
             .fb {
-                background: url(../images/fb_violet.svg);
+                background-image: url(../images/fb_violet.svg);
 
                 &:hover {
-                    background: url(../images/fb_color.svg);
+                    background-image: url(../images/fb_color.svg);
                 }
             }
 
             .vk {
-                background: url(../images/vk_violet.svg);
+                background-image: url(../images/vk_violet.svg);
 
                 &:hover {
-                    background: url(../images/vk_color.svg);
+                    background-image: url(../images/vk_color.svg);
                 }
             }
 
             .tg {
-                background: url(../images/tg_violet.svg);
+                background-image: url(../images/tg_violet.svg);
 
                 &:hover {
-                    background: url(../images/tg_color.svg);
+                    background-image: url(../images/tg_color.svg);
                 }
             }
+
+
+
         }
     }
 
