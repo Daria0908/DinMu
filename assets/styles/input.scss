@@ -1,8 +1,7 @@
 ul,
 .container,
 .ex-re,
-.expirience,
-.reason {
+.expirience {
     display: flex;
     justify-content: space-between;
 }
@@ -32,6 +31,12 @@ a {
     }
 }
 
+.header {
+    .container {
+        align-items: center;
+    }
+}
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -42,7 +47,7 @@ a {
     font-style: normal;
     font-weight: 400;
     color: #09035D;
-    align-items: center;
+
 
 
     .main__text {
@@ -92,6 +97,7 @@ a {
         ul {
             li {
                 display: block;
+
                 width: 30px;
                 height: 30px;
             }
@@ -133,12 +139,17 @@ a {
     .ex-re {
         width: 100%;
         flex-direction: column;
+        padding-bottom: 5em;
 
         .expirience {
             justify-content: center;
 
+            h2 {
+                font-size: 2em;
+            }
+
             div {
-                width: 10%;
+                width: 15%;
                 text-align: center;
                 padding: 0.5em;
 
@@ -152,19 +163,31 @@ a {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
 
+
+
             .reason {
+                display: flex;
+                align-items: center;
                 background: #FFFFFF;
                 box-shadow: -4px -4px 20px rgba(120, 113, 222, 0.1), 4px 4px 20px rgba(120, 113, 222, 0.1);
                 border-radius: 4px;
+                margin-right: 30px;
+                margin-top: 20px;
+
+                svg {
+                    margin: 1em;
+
+                }
             }
         }
-
     }
 
-
-
-
 }
+
+
+
+
+
 
 
 
