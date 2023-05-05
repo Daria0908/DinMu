@@ -41,6 +41,7 @@ a {
   font-style: normal;
   font-weight: 400;
   color: #09035D;
+  align-items: center;
 }
 .container .main__text {
   background: #FFFFFF;
@@ -78,36 +79,36 @@ a {
   width: 75%;
 }
 .container .networks {
-  width: 10%;
+  width: 12%;
 }
 .container .networks ul li {
   display: block;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
-.container .networks ul li .inst {
-  background-image: url(../images/inst_color.svg);
+.container .networks ul .inst {
+  background: url(../images/inst_violet.svg);
 }
-.container .networks ul li .inst:hover {
+.container .networks ul .inst:hover {
   background: url(../images/inst_color.svg);
 }
-.container .networks ul li .fb {
-  background-image: url(../images/fb_violet.svg);
+.container .networks ul .fb {
+  background: url(../images/fb_violet.svg);
 }
-.container .networks ul li .fb:hover {
-  background-image: url(../images/fb_color.svg);
+.container .networks ul .fb:hover {
+  background: url(../images/fb_color.svg);
 }
-.container .networks ul li .vk {
-  background-image: url(../images/vk_violet.svg);
+.container .networks ul .vk {
+  background: url(../images/vk_violet.svg);
 }
-.container .networks ul li .vk:hover {
-  background-image: url(../images/vk_color.svg);
+.container .networks ul .vk:hover {
+  background: url(../images/vk_color.svg);
 }
-.container .networks ul li .tg {
-  background-image: url(../images/tg_violet.svg);
+.container .networks ul .tg {
+  background: url(../images/tg_violet.svg);
 }
-.container .networks ul li .tg:hover {
-  background-image: url(../images/tg_color.svg);
+.container .networks ul .tg:hover {
+  background: url(../images/tg_color.svg);
 }
 .container .ex-re {
   width: 100%;
