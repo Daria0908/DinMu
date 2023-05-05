@@ -6,12 +6,20 @@ ul,
     justify-content: space-between;
 }
 
+.reason {
+    display: flex;
+}
+
 li {
     list-style-type: none;
 }
 
 a {
     text-decoration: none;
+}
+
+h2 {
+    font-size: 2em;
 }
 
 .header,
@@ -31,7 +39,8 @@ a {
     }
 }
 
-.header {
+.header,
+.footer {
     .container {
         align-items: center;
     }
@@ -43,7 +52,8 @@ a {
     width: 100%;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 1%;
+    padding-top: 1em;
+    padding-bottom: 1em;
     font-style: normal;
     font-weight: 400;
     color: #09035D;
@@ -144,9 +154,7 @@ a {
         .expirience {
             justify-content: center;
 
-            h2 {
-                font-size: 2em;
-            }
+
 
             div {
                 width: 15%;
@@ -166,7 +174,6 @@ a {
 
 
             .reason {
-                display: flex;
                 align-items: center;
                 background: #FFFFFF;
                 box-shadow: -4px -4px 20px rgba(120, 113, 222, 0.1), 4px 4px 20px rgba(120, 113, 222, 0.1);
@@ -176,12 +183,27 @@ a {
 
                 svg {
                     margin: 1em;
-
                 }
             }
         }
     }
 
+    .kinolog-better {
+        color: #FFFFFF;
+
+        h3 {
+            color: #9FDB3D;
+        }
+
+        .reason {
+            justify-content: center;
+
+            div {
+                width: 30%;
+                margin-right: 2em;
+            }
+        }
+    }
 }
 
 
